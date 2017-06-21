@@ -1,0 +1,13 @@
+<!--
+  Generated template for the FlowerImages page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+  <ion-slides [options]="options">
+    <ion-slide *ngFor="let i of flower.images">
+      <img [src]="getImageSrc(i)">
+    </ion-slide>
+  </ion-slides>
+</ion-content>
