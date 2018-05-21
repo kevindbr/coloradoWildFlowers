@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PortableApp.App">
+  <Label Text="CO Wildflowers App" VerticalOptions="Center" HorizontalOptions="Center" />
+
+  <Application.Resources>
+    <ResourceDictionary>
+
+    <Style x:Key="semiTransparentButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#CCffffff" />
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="Font" Value="Bold,17" />
+        <Setter Property="Margin" Value="20, 0, 20, 0" />
+    </Style>
+      
+    <Style x:Key="showFlowersButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#FF33B8FF" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="Font" Value="Bold,14" />
+        <Setter Property="Margin" Value="20, 0, 20, 0" />
+    </Style>
+      
+    <Style x:Key="transparentButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#66000000" />
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="Font" Value="Bold,14" />
+        <Setter Property="Margin" Value="10, 0, 10, 0" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BorderColor" Value="Black" />
+        <Setter Property="BorderRadius" Value="1" />
+    </Style>
+
+    <Style x:Key="semiTransparentPlantButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#66000000" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Margin" Value="0" />
+        <Setter Property= "FontFamily" Value= "sans-serif" />
+    </Style>
+
+    <Style x:Key="plantFilterButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#66000000" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property= "FontFamily" Value= "sans-serif" />
+    </Style>
+     
+
+    <Style x:Key="jumpListLetter" TargetType="Label">
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="10" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property= "FontFamily" Value= "sans-serif" />  
+    </Style>
+
+    <Style x:Key="sectionHeader" TargetType="Label">
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Margin" Value="0, 10, 0, 0" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property= "FontFamily" Value= "sans-serif" />
+    </Style>
+
+    <Style x:Key="outlineButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#000000" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Margin" Value="10, 0, 10, 0" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BorderColor" Value="White" />
+        <Setter Property= "FontFamily" Value= "sans-serif" />
+    </Style>
+
+        </ResourceDictionary>
+  </Application.Resources>
+</Application>

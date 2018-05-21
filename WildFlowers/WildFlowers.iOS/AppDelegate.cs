@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿using SQLite.Net.Platform.XamarinIOS;
 using Foundation;
 using UIKit;
+using CarouselView.FormsPlugin.iOS;
+using FFImageLoading.Forms.Touch;
 
-namespace WildFlowers.iOS
+namespace PortableApp.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 
@@ -23,7 +22,14 @@ namespace WildFlowers.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            CarouselViewRenderer.Init();
+            CachedImageRenderer.Init();
+            UIApplication.SharedApplication.IdleTimerDisabled = true;
+
+
+            string dbPath = FileAccessHelper.GetLocalFilePath("db.db3");
+            var platform = new SQLitePlatformIOS();
+            LoadApplication(new PortableApp.App(platform, dbPath));
 
             return base.FinishedLaunching(app, options);
         }
