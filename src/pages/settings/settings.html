@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>Settings</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="cancel()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col width-100>
+        <h3>Sort</h3>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col width-100>
+        <ion-segment [(ngModel)]="viewMode">
+          <ion-segment-button value="0">
+            Sci. name
+          </ion-segment-button>
+          <ion-segment-button value="1">
+            Common name
+          </ion-segment-button>
+          <ion-segment-button value="2">
+            Family
+          </ion-segment-button>
+        </ion-segment>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col width-100>
+        <h3>Name Display</h3>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col width-100>
+        <ion-segment [(ngModel)]="displayMode">
+          <ion-segment-button value="0">
+            First Last
+          </ion-segment-button>
+          <ion-segment-button value="1">
+            Last, First
+          </ion-segment-button>
+        </ion-segment>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col width-100>
+        <div class="push-down">
+          <button ion-button large block (click)="updateOptions()">Save Settings</button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

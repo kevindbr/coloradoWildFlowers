@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Plains",
+    "altitude": "3,500 to 6,500 feet",
+    "description": "The plains are, where undisturbed by agriculture, a mixed grass prairie. Sandy hills may have shrubs such as Sagebrush and Rabbitbrush mixed with Cacti and Yucca. Cottonwoods, willows, and Box Elder are found along streams. Percentage of days with sunshine is very high and humidity is quite low. Annual precipitation is less than 20 inches with about a quarter of that from snow. Wildflowers in undisturbed areas can be very good from March through June."
+  },
+
+  {
+    "name": "Foothills",
+    "altitude": "6,500 to 8,000 feet",
+    "description": "Pinyon Pine, Juniper, and Oak forests, often quite thick. Pockets of Douglas Firs. Ponderosa Pines at higher elevations. Numerous shrubs: Serviceberry, Mountain Mahogany, Snowberry. Annually about 14-25 inches of moisture, about half from snow. Moderate to very good wildflower growth in May and June, highly dependent on winter and spring rains."
+  },
+
+  {
+    "name": "Montane",
+    "altitude": "8,000 to 10,000 feet",
+    "description": "Open Aspen forests, sometimes with heavy undergrowth of shrubs (Snowberry, Currants, Elderberry). Colorado Blue Spruce in moist areas. At lower elevations some large stands of Ponderosa Pine with scattered Douglas Fir on north facing slopes. Annually about 18-30 inches of moisture, 1/2 to 3/4 from snow. Moderate to lush wildflower growth from June-August."
+  },
+
+  {
+    "name": "Subalpine",
+    "altitude": "10,000 to 11,500 feet",
+    "description": "Characterized by thick Spruce/Fir forests. Aspens grow at lower elevations in this zone. Annually about 25-40 inches of moisture, most from snow (about 250-350 inches). Lush wildflower growth mid-June through August."
+  },
+
+  {
+    "name": "Alpine",
+    "altitude": "Above 11,500 feet (tree line)",
+    "description": "Characterized by tundra: land of thin soil, rocks, a very short growing season, and frost any day of the year. Annually 30-55 inches of moisture, most from snow (200 to 400 inches per winter). Magnificent carpets of dwarfed flowering plants in June, July, and August."
+  }
+]

@@ -1,0 +1,39 @@
+page-home {
+
+  ion-title {
+    text-transform: uppercase;
+
+    img {
+      vertical-align: middle;
+      height: 40px;
+      display: inline-block;
+    }
+  }
+
+  .vertical-align > * {
+    display: flex!important;
+    align-content: center!important;
+    align-items: center!important;
+  }
+
+  ion-content {
+    background: url('../assets/img/background.jpg') no-repeat;
+    background-size: cover;
+
+    h1 {
+      color: #fff
+    }
+
+    button {
+      opacity: 0.8;
+      text-transform: uppercase;
+    }
+  }
+
+  ion-footer {
+    img {
+      width: 50px;
+      height: auto;
+    }
+  }
+}

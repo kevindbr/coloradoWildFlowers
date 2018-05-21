@@ -1,0 +1,93 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+$font-path: "../assets/fonts";
+
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary: #328fbc,
+  secondary:  #70D177,
+  danger:     #FA4500,
+  warning:    #F4810C,
+  info:    #69c7b7,
+  light: #fff,
+  dark:       #232733
+);
+
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+$tabs-ios-tab-text-color: darken(color($colors, info), 30%) !important;
+$tabs-ios-tab-text-color-active: color($colors, info) !important;
+
+$tabs-ios-tab-icon-color: darken(color($colors, info), 30%) !important;
+$tabs-ios-tab-icon-color-active: color($colors, info) !important;
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+$tabs-md-tab-text-color: darken(color($colors, info), 30%) !important;
+$tabs-md-tab-text-color-active: color($colors, info) !important;
+
+$tabs-md-tab-icon-color: darken(color($colors, info), 30%) !important;
+$tabs-md-tab-icon-color-active: color($colors, info) !important;
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+$tabs-wp-tab-text-color: darken(color($colors, info), 30%) !important;
+$tabs-wp-tab-text-color-active: color($colors, info) !important;
+
+$tabs-wp-tab-icon-color: darken(color($colors, info), 30%) !important;
+$tabs-wp-tab-icon-color-active: color($colors, info) !important;
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+@import "ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
